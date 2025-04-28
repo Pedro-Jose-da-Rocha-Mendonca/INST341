@@ -1,0 +1,166 @@
+/* ========================================
+   ANIMATION STYLES
+   ======================================== */
+
+/* 
+ * FADE IN ANIMATION
+ * Use class="fade-in" to make elements fade in when they appear
+ */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+  animation-fill-mode: both;
+}
+
+/* 
+ * SLIDE UP ANIMATION
+ * Use class="slide-up" to make elements slide up from below
+ */
+.slide-up {
+  animation: slideUp 0.5s ease-in-out;
+  animation-fill-mode: both;
+}
+
+/* 
+ * SLIDE FROM RIGHT ANIMATION
+ * Use class="slide-right" to make elements slide in from right
+ */
+.slide-right {
+  animation: slideRight 0.6s ease-in-out;
+  animation-fill-mode: both;
+}
+
+/* 
+ * BOUNCE ANIMATION
+ * Use class="bounce" for a playful bouncing effect
+ */
+.bounce {
+  animation: bounce 0.8s ease-in-out;
+  animation-fill-mode: both;
+}
+
+/* 
+ * PULSE ANIMATION
+ * Use class="pulse" for attention-grabbing effect
+ */
+.pulse {
+  animation: pulse 1.5s infinite;
+}
+
+/* 
+ * ZOOM IN ANIMATION
+ * Use class="zoom-in" to make elements zoom in
+ */
+.zoom-in {
+  animation: zoomIn 0.5s ease-in-out;
+  animation-fill-mode: both;
+}
+
+/* Animation keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* 
+ * STAGGERED ANIMATIONS
+ * Apply different animation delays to create staggered effects
+ */
+.delay-100 {
+  animation-delay: 0.1s;
+}
+
+.delay-200 {
+  animation-delay: 0.2s;
+}
+
+.delay-300 {
+  animation-delay: 0.3s;
+}
+
+.delay-400 {
+  animation-delay: 0.4s;
+}
+
+.delay-500 {
+  animation-delay: 0.5s;
+}
+
+/* Hover animations */
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive animations - disable on mobile for performance */
+@media (prefers-reduced-motion) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
