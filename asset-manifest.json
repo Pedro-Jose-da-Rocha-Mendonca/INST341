@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/inst341/static/css/main.b7f233d4.css",
-    "main.js": "/inst341/static/js/main.dae840be.js",
+    "main.js": "/inst341/static/js/main.5183e53c.js",
     "static/js/453.104833eb.chunk.js": "/inst341/static/js/453.104833eb.chunk.js",
     "static/media/marvel-rivals.jpg": "/inst341/static/media/marvel-rivals.fe1b333cba8d50d3f2e1.jpg",
     "static/media/assassins-creed-origins.jpg": "/inst341/static/media/assassins-creed-origins.fb0bf53dd85edc9a214b.jpg",
@@ -17,13 +17,28 @@
     "static/media/star-wars-battlefront-ii.jpg": "/inst341/static/media/star-wars-battlefront-ii.aa72a59e861e292a0145.jpg",
     "static/media/grand-turismo-7.jpg": "/inst341/static/media/grand-turismo-7.ab77d25bd34916b3c214.jpg",
     "static/media/bookworm-adventures-vol-2.jpg": "/inst341/static/media/bookworm-adventures-vol-2.2f3706a02bb5ab559971.jpg",
+    "static/media/zumas-revenge.jpg": "/inst341/static/media/zumas-revenge.707942e685b45ef1d6b2.jpg",
+    "static/media/ready-or-not.jpg": "/inst341/static/media/ready-or-not.c3b5c051e98fd6e41423.jpg",
+    "static/media/plants-vs-zombies.jpg": "/inst341/static/media/plants-vs-zombies.e3c4ca876adf233aa230.jpg",
+    "static/media/darkest-dungeon.jpg": "/inst341/static/media/darkest-dungeon.37c8d9d98ce8fa4aab04.jpg",
+    "static/media/realm-of-the-mad-god.jpg": "/inst341/static/media/realm-of-the-mad-god.c8e2ee16db74faf9a5af.jpg",
+    "static/media/lethal-company.jpg": "/inst341/static/media/lethal-company.ef2ed23908dd6c7daeee.jpg",
+    "static/media/spore.jpg": "/inst341/static/media/spore.b5d130dc1b85edc3785f.jpg",
+    "static/media/total-war-shogun-2.jpg": "/inst341/static/media/total-war-shogun-2.e6605194c7f596c455b9.jpg",
+    "static/media/two-point-hospital.jpg": "/inst341/static/media/two-point-hospital.21c19e9f80ba60c61481.jpg",
+    "static/media/fallout-new-vegas.jpg": "/inst341/static/media/fallout-new-vegas.f7b75d4c0e3ea6cfaef3.jpg",
+    "static/media/college-football-25.jpg": "/inst341/static/media/college-football-25.19f847dee27fd0395e67.jpg",
+    "static/media/doki-doki-literature-club.jpg": "/inst341/static/media/doki-doki-literature-club.a76a25e36dc5e50c4ea4.jpg",
+    "static/media/house-flipper.jpg": "/inst341/static/media/house-flipper.4846630879b083e59901.jpg",
+    "static/media/warhammer-40000-darktide.jpg": "/inst341/static/media/warhammer-40000-darktide.8465b7eab6eba33b7d4c.jpg",
+    "static/media/yakuza-0.jpg": "/inst341/static/media/yakuza-0.58b95d44dab880caa7f0.jpg",
     "index.html": "/inst341/index.html",
     "main.b7f233d4.css.map": "/inst341/static/css/main.b7f233d4.css.map",
-    "main.dae840be.js.map": "/inst341/static/js/main.dae840be.js.map",
+    "main.5183e53c.js.map": "/inst341/static/js/main.5183e53c.js.map",
     "453.104833eb.chunk.js.map": "/inst341/static/js/453.104833eb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b7f233d4.css",
-    "static/js/main.dae840be.js"
+    "static/js/main.5183e53c.js"
   ]
 }
