@@ -1,28 +1,22 @@
-/* Color variables for consistent theming */
 :root {
-  /* Light mode colors */
   --primary-color: #4f46e5;
   --secondary-color: #9333ea;
   --accent-color: #fbbf24;
   
-  /* Text colors */
   --text-color: #1f2937;
   --text-color-light: #6b7280;
   --text-color-dark: #f9fafb;
   
-  /* Background colors */
   --bg-color-light: #ffffff;
   --bg-color-dark: #111827;
   --bg-color-secondary: #f3f4f6;
   
-  /* Card and border colors */
   --card-bg: #ffffff;
   --border-color: #e5e7eb;
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   
-  /* Spacing */
   --space-xs: 0.25rem;
   --space-sm: 0.5rem;
   --space-md: 1rem;
@@ -30,14 +24,12 @@
   --space-xl: 2rem;
   --space-2xl: 3rem;
   
-  /* Border radius */
   --radius-sm: 0.25rem;
   --radius-md: 0.5rem;
   --radius-lg: 0.75rem;
   --radius-full: 9999px;
 }
 
-/* Dark mode colors */
 .dark-theme {
   --primary-color: #6366f1;
   --secondary-color: #a78bfa;
@@ -58,7 +50,6 @@
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
 }
 
-/* Base styles */
 html,
 body {
   padding: 0;
@@ -70,6 +61,8 @@ body {
   background-color: var(--bg-color-light);
   transition: background-color 0.3s ease, color 0.3s ease;
   line-height: 1.6;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 * {
@@ -90,7 +83,6 @@ button, input, select, textarea {
   font-family: inherit;
 }
 
-/* Utility classes */
 .container {
   width: 100%;
   max-width: 1200px;

@@ -1,20 +1,21 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import { getGeneralGenre } from '../../utils/gameData';
 
 export default function GameCard({ game }) {
   const [imageError, setImageError] = useState(false);
   
-  // Create a proper image URL
   let imageUrl;
   try {
-    // Try to import the image directly from the images folder
     imageUrl = require(`../../images/${game.id}.jpg`);
   } catch (error) {
-    // If image doesn't exist in the images folder, use the default placeholder
     imageUrl = 'https://via.placeholder.com/300x150?text=Game+Image';
   }
   
   const isFree = game.price === 0 || game.price === 0.00;
+  
+  const mainGenre = game.genre && game.genre.length > 0 ? 
+    getGeneralGenre(game.genre[0]) : '';
   
   return (
     <Link 
@@ -38,7 +39,7 @@ export default function GameCard({ game }) {
         
         <div className="card-meta">
           <div className="card-genres">
-            {game.genre && game.genre.length > 0 && game.genre[0]}
+            {mainGenre}
           </div>
           
           <div className="card-price">

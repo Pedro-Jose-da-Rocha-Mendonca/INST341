@@ -1,61 +1,32 @@
-/* ========================================
-   ANIMATION STYLES
-   ======================================== */
-
-/* 
- * FADE IN ANIMATION
- * Use class="fade-in" to make elements fade in when they appear
- */
 .fade-in {
   animation: fadeIn 0.5s ease-in-out;
   animation-fill-mode: both;
 }
 
-/* 
- * SLIDE UP ANIMATION
- * Use class="slide-up" to make elements slide up from below
- */
 .slide-up {
   animation: slideUp 0.5s ease-in-out;
   animation-fill-mode: both;
 }
 
-/* 
- * SLIDE FROM RIGHT ANIMATION
- * Use class="slide-right" to make elements slide in from right
- */
 .slide-right {
   animation: slideRight 0.6s ease-in-out;
   animation-fill-mode: both;
 }
 
-/* 
- * BOUNCE ANIMATION
- * Use class="bounce" for a playful bouncing effect
- */
 .bounce {
   animation: bounce 0.8s ease-in-out;
   animation-fill-mode: both;
 }
 
-/* 
- * PULSE ANIMATION
- * Use class="pulse" for attention-grabbing effect
- */
 .pulse {
   animation: pulse 1.5s infinite;
 }
 
-/* 
- * ZOOM IN ANIMATION
- * Use class="zoom-in" to make elements zoom in
- */
 .zoom-in {
   animation: zoomIn 0.5s ease-in-out;
   animation-fill-mode: both;
 }
 
-/* Animation keyframes */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -122,10 +93,6 @@
   }
 }
 
-/* 
- * STAGGERED ANIMATIONS
- * Apply different animation delays to create staggered effects
- */
 .delay-100 {
   animation-delay: 0.1s;
 }
@@ -146,7 +113,6 @@
   animation-delay: 0.5s;
 }
 
-/* Hover animations */
 .hover-lift {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -156,7 +122,6 @@
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
-/* Responsive animations - disable on mobile for performance */
 @media (prefers-reduced-motion) {
   * {
     animation-duration: 0.01ms !important;

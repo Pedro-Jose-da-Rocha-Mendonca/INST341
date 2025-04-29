@@ -6,7 +6,6 @@ import './App.css';
 
 function App() {
   const [darkMode, setDarkMode] = useState(() => {
-    // Check local storage or user preferences
     return localStorage.getItem('darkMode') === 'true' || 
            window.matchMedia('(prefers-color-scheme: dark)').matches;
   });

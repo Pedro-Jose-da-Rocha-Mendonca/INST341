@@ -1,11 +1,20 @@
+import { getGeneralGenre } from '../../utils/gameData';
+
 export default function GameDetails({ game }) {
-  // Format price display
   const priceDisplay = game.price === 0 || game.price === 0.00 
     ? 'Free to Play' 
     : `$${game.price?.toFixed(2)}`;
 
-  // Create image path based on game id
   const imagePath = require(`../../images/${game.id}.jpg`);
+  
+  const genresByCategory = {};
+  game.genre.forEach(genre => {
+    const generalGenre = getGeneralGenre(genre);
+    if (!genresByCategory[generalGenre]) {
+      genresByCategory[generalGenre] = [];
+    }
+    genresByCategory[generalGenre].push(genre);
+  });
 
   return (
     <div className="game-detail fade-in">
@@ -51,9 +60,17 @@ export default function GameDetails({ game }) {
           <h2 className="section-title">Description</h2>
           <p className="game-description">{game.description}</p>
 
-          <div className="game-tags">
-            {game.genre.map((item, index) => (
-              <span key={index} className="tag">{item}</span>
+          <div className="genre-categories">
+            <h3 className="genre-title">Game Genres</h3>
+            {Object.entries(genresByCategory).map(([category, genres]) => (
+              <div key={category} className="genre-category">
+                <span className="category-name">{category}:</span>
+                <div className="game-tags">
+                  {genres.map((genre, index) => (
+                    <span key={index} className="tag">{genre}</span>
+                  ))}
+                </div>
+              </div>
             ))}
           </div>
         </div>
