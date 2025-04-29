@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/inst341/static/css/main.b7f233d4.css",
-    "main.js": "/inst341/static/js/main.5183e53c.js",
-    "static/js/453.104833eb.chunk.js": "/inst341/static/js/453.104833eb.chunk.js",
+    "main.css": "/inst341/static/css/main.1dcafaf8.css",
+    "main.js": "/inst341/static/js/main.8133d13f.js",
+    "static/js/453.531e06b3.chunk.js": "/inst341/static/js/453.531e06b3.chunk.js",
     "static/media/marvel-rivals.jpg": "/inst341/static/media/marvel-rivals.fe1b333cba8d50d3f2e1.jpg",
     "static/media/assassins-creed-origins.jpg": "/inst341/static/media/assassins-creed-origins.fb0bf53dd85edc9a214b.jpg",
     "static/media/inscryption.jpg": "/inst341/static/media/inscryption.1935c63b86b369e5e4a2.jpg",
@@ -12,11 +12,20 @@
     "static/media/halo-infinite.jpg": "/inst341/static/media/halo-infinite.1566bc37e5d1e937b312.jpg",
     "static/media/minecraft.jpg": "/inst341/static/media/minecraft.7294f32b81a1d3492b9f.jpg",
     "static/media/assassins-creed-odyssey.jpg": "/inst341/static/media/assassins-creed-odyssey.2db645100017617c1d9f.jpg",
+    "static/media/grandchase.jpg": "/inst341/static/media/grandchase.8d6d325d69d5bad7ee5b.jpg",
     "static/media/sifu.jpg": "/inst341/static/media/sifu.e0d9e19533a2ed0d6265.jpg",
     "static/media/the-finals.jpg": "/inst341/static/media/the-finals.ee5d90acfe82a0e60324.jpg",
+    "static/media/smite-2.jpg": "/inst341/static/media/smite-2.fd05b4046da63fe9a325.jpg",
     "static/media/star-wars-battlefront-ii.jpg": "/inst341/static/media/star-wars-battlefront-ii.aa72a59e861e292a0145.jpg",
     "static/media/grand-turismo-7.jpg": "/inst341/static/media/grand-turismo-7.ab77d25bd34916b3c214.jpg",
+    "static/media/wizard101.jpg": "/inst341/static/media/wizard101.452ea5ae4ff7dacf4b1f.jpg",
+    "static/media/elsword.jpg": "/inst341/static/media/elsword.67dcaad0c8bffe497de0.jpg",
     "static/media/bookworm-adventures-vol-2.jpg": "/inst341/static/media/bookworm-adventures-vol-2.2f3706a02bb5ab559971.jpg",
+    "static/media/pirate101.jpg": "/inst341/static/media/pirate101.212880848771b3d2491f.jpg",
+    "static/media/club-penguin.jpg": "/inst341/static/media/club-penguin.ba848334c0e11cdf5680.jpg",
+    "static/media/fusionfall.jpg": "/inst341/static/media/fusionfall.b5f03823aeb8249b4e2f.jpg",
+    "static/media/blade-and-soul.jpg": "/inst341/static/media/blade-and-soul.35a5de23d1ba57ffb43a.jpg",
+    "static/media/world-of-warcraft.jpg": "/inst341/static/media/world-of-warcraft.4542305e4ec12fe70f45.jpg",
     "static/media/zumas-revenge.jpg": "/inst341/static/media/zumas-revenge.707942e685b45ef1d6b2.jpg",
     "static/media/ready-or-not.jpg": "/inst341/static/media/ready-or-not.c3b5c051e98fd6e41423.jpg",
     "static/media/plants-vs-zombies.jpg": "/inst341/static/media/plants-vs-zombies.e3c4ca876adf233aa230.jpg",
@@ -33,12 +42,12 @@
     "static/media/warhammer-40000-darktide.jpg": "/inst341/static/media/warhammer-40000-darktide.8465b7eab6eba33b7d4c.jpg",
     "static/media/yakuza-0.jpg": "/inst341/static/media/yakuza-0.58b95d44dab880caa7f0.jpg",
     "index.html": "/inst341/index.html",
-    "main.b7f233d4.css.map": "/inst341/static/css/main.b7f233d4.css.map",
-    "main.5183e53c.js.map": "/inst341/static/js/main.5183e53c.js.map",
-    "453.104833eb.chunk.js.map": "/inst341/static/js/453.104833eb.chunk.js.map"
+    "main.1dcafaf8.css.map": "/inst341/static/css/main.1dcafaf8.css.map",
+    "main.8133d13f.js.map": "/inst341/static/js/main.8133d13f.js.map",
+    "453.531e06b3.chunk.js.map": "/inst341/static/js/453.531e06b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7f233d4.css",
-    "static/js/main.5183e53c.js"
+    "static/css/main.1dcafaf8.css",
+    "static/js/main.8133d13f.js"
   ]
 }
