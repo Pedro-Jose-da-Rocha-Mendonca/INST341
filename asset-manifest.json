@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/inst341/static/css/main.1dcafaf8.css",
-    "main.js": "/inst341/static/js/main.16576103.js",
+    "main.css": "/inst341/static/css/main.cde0b034.css",
+    "main.js": "/inst341/static/js/main.5273723e.js",
     "static/js/453.531e06b3.chunk.js": "/inst341/static/js/453.531e06b3.chunk.js",
     "static/media/marvel-rivals.jpg": "/inst341/static/media/marvel-rivals.fe1b333cba8d50d3f2e1.jpg",
     "static/media/assassins-creed-origins.jpg": "/inst341/static/media/assassins-creed-origins.fb0bf53dd85edc9a214b.jpg",
@@ -42,12 +42,12 @@
     "static/media/warhammer-40000-darktide.jpg": "/inst341/static/media/warhammer-40000-darktide.8465b7eab6eba33b7d4c.jpg",
     "static/media/yakuza-0.jpg": "/inst341/static/media/yakuza-0.58b95d44dab880caa7f0.jpg",
     "index.html": "/inst341/index.html",
-    "main.1dcafaf8.css.map": "/inst341/static/css/main.1dcafaf8.css.map",
-    "main.16576103.js.map": "/inst341/static/js/main.16576103.js.map",
+    "main.cde0b034.css.map": "/inst341/static/css/main.cde0b034.css.map",
+    "main.5273723e.js.map": "/inst341/static/js/main.5273723e.js.map",
     "453.531e06b3.chunk.js.map": "/inst341/static/js/453.531e06b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1dcafaf8.css",
-    "static/js/main.16576103.js"
+    "static/css/main.cde0b034.css",
+    "static/js/main.5273723e.js"
   ]
 }
