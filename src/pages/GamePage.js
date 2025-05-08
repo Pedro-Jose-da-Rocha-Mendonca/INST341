@@ -1,12 +1,11 @@
 import { useEffect, useState } from 'react';
-import { Link, useParams, useNavigate } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { getGameById } from '../utils/gameData';
 import Layout from '../components/Layout';
 import GameDetails from '../components/Games/GameDetails';
 
 export default function GamePage() {
   const { id } = useParams();
-  const navigate = useNavigate();
   const [game, setGame] = useState(null);
   
   useEffect(() => {

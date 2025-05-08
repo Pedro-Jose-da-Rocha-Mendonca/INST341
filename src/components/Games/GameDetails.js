@@ -1,4 +1,5 @@
 import { getGeneralGenre } from '../../utils/gameData';
+import { getDublinCoreById } from '../../data/dublinCore';
 
 export default function GameDetails({ game }) {
   const priceDisplay = game.price === 0 || game.price === 0.00 
@@ -15,6 +16,9 @@ export default function GameDetails({ game }) {
     }
     genresByCategory[generalGenre].push(genre);
   });
+
+  // Get Dublin Core metadata
+  const dublinCore = getDublinCoreById(game.id);
 
   return (
     <div className="game-detail fade-in">
@@ -59,6 +63,30 @@ export default function GameDetails({ game }) {
         <div className="slide-up">
           <h2 className="section-title">Description</h2>
           <p className="game-description">{game.description}</p>
+
+          {dublinCore && (
+            <div className="dublin-core-metadata">
+              <h3 className="section-title">Additional Information</h3>
+              <div className="metadata-grid">
+                <div className="metadata-item">
+                  <span className="metadata-label">Creator:</span>
+                  <span>{dublinCore.creator}</span>
+                </div>
+                <div className="metadata-item">
+                  <span className="metadata-label">Publisher:</span>
+                  <span>{dublinCore.publisher}</span>
+                </div>
+                <div className="metadata-item">
+                  <span className="metadata-label">Rights:</span>
+                  <span>{dublinCore.rights}</span>
+                </div>
+                <div className="metadata-item">
+                  <span className="metadata-label">Language:</span>
+                  <span>{dublinCore.language}</span>
+                </div>
+              </div>
+            </div>
+          )}
 
           <div className="genre-categories">
             <h3 className="genre-title">Game Genres</h3>

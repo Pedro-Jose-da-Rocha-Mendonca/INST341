@@ -418,6 +418,32 @@
   font-size: 0.95rem;
 }
 
+.dublin-core-metadata {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: var(--bg-color-secondary);
+  border-radius: var(--radius-lg);
+}
+
+.metadata-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.metadata-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.metadata-label {
+  font-weight: 600;
+  color: var(--primary-color);
+  font-size: 0.9rem;
+}
+
 @media (max-width: 768px) {
   .games-grid {
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
